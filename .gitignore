@@ -1,0 +1,13 @@
+.*.sw*
+
+.storage
+.cloud
+.google.token
+.uuid
+
+ip_bans.yaml
+secrets.yaml
+known_devices.yaml
+home-assistant_v2.db
+OZW_Log.txt
+home-assistant.log

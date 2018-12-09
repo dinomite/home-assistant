@@ -1,0 +1,21 @@
+set_dimmers_to_full_brightness:
+  alias: Set dimmers to full brightness
+  sequence:
+  - service: light.turn_on
+    data:
+      entity_id: group.dimmers_all
+      brightness: 255
+  - service: light.turn_off
+    data:
+      entity_id: group.dimmers_all
+
+set_dimmers_to_minimum_brightness:
+  alias: Set dimmers to minimum brightness
+  sequence:
+  - service: light.turn_on
+    data:
+      entity_id: group.dimmers_all
+      brightness: 20
+  - service: light.turn_off
+    data:
+      entity_id: group.dimmers_all

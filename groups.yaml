@@ -1,0 +1,20 @@
+default_view:
+  name: Home
+  view: true
+  icon: mdi:home-assistant
+  entities:
+    - group.dimmers_main_floor
+    - group.dimmers_all
+    - group.all_lights
+    - group.all_scripts
+    - group.all_automations
+
+dimmers_all:
+  name: All dimmers
+  entities:
+    - group.dimmers_main_floor
+
+dimmers_main_floor:
+  name: Dimmers on the main floor
+  entities:
+    - light.homeseer_hswd100_wall_dimmer_level
