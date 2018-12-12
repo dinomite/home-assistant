@@ -5,9 +5,17 @@ default_view:
   entities:
     - group.dimmers_main_floor
     - group.dimmers_all
-    - group.all_lights
+    #- group.all_lights
     - group.all_scripts
     - group.all_automations
+    - group.date_time
+
+date_time:
+  name: Date & Time
+  entities:
+    - sensor.date
+    - sensor.time
+    - sensor.time_utc
 
 dimmers_all:
   name: All dimmers
