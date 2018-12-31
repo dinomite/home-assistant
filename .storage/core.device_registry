@@ -1,0 +1,80 @@
+{
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "201ce98a6bb14d9f9dc71618badf1e2e"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "f1ed0fb59ba5490a8805322cc291fe68",
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WD100+ Wall Dimmer",
+                "name": "HomeSeer HS-WD100+ Wall Dimmer",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "201ce98a6bb14d9f9dc71618badf1e2e"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "dd197d85688f459a9c7fe71a3e3b4a09",
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WD100+ Wall Dimmer",
+                "name": "HomeSeer HS-WD100+ Wall Dimmer",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "201ce98a6bb14d9f9dc71618badf1e2e"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "123616e27b724688b64fbd18853d0bd7",
+                "identifiers": [
+                    [
+                        "zwave",
+                        5
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WD100+ Wall Dimmer",
+                "name": "HomeSeer HS-WD100+ Wall Dimmer",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "201ce98a6bb14d9f9dc71618badf1e2e"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "c740bb982e764afdb46808da48830eb2",
+                "identifiers": [
+                    [
+                        "zwave",
+                        6
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WD100+ Wall Dimmer",
+                "name": "HomeSeer HS-WD100+ Wall Dimmer",
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

@@ -1,0 +1,89 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.aeotec_zw090_zstick_gen5_us",
+                "name": "aeotec",
+                "platform": "zwave",
+                "unique_id": "node-1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.homeseer_hswd100_wall_dimmer",
+                "name": "Study dimmer",
+                "platform": "zwave",
+                "unique_id": "node-3"
+            },
+            {
+                "config_entry_id": "201ce98a6bb14d9f9dc71618badf1e2e",
+                "device_id": "f1ed0fb59ba5490a8805322cc291fe68",
+                "disabled_by": null,
+                "entity_id": "light.homeseer_hswd100_wall_dimmer_level",
+                "name": "Study",
+                "platform": "zwave",
+                "unique_id": "3-72057594093076481"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.homeseer_hswd100_wall_dimmer_2",
+                "name": "Morning Room dimmer",
+                "platform": "zwave",
+                "unique_id": "node-4"
+            },
+            {
+                "config_entry_id": "201ce98a6bb14d9f9dc71618badf1e2e",
+                "device_id": "dd197d85688f459a9c7fe71a3e3b4a09",
+                "disabled_by": null,
+                "entity_id": "light.homeseer_hswd100_wall_dimmer_level_2",
+                "name": "Morning room",
+                "platform": "zwave",
+                "unique_id": "4-72057594109853697"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.homeseer_hswd100_wall_dimmer_3",
+                "name": "Kitchen dimmer",
+                "platform": "zwave",
+                "unique_id": "node-5"
+            },
+            {
+                "config_entry_id": "201ce98a6bb14d9f9dc71618badf1e2e",
+                "device_id": "123616e27b724688b64fbd18853d0bd7",
+                "disabled_by": null,
+                "entity_id": "light.homeseer_hswd100_wall_dimmer_level_3",
+                "name": "Kitchen",
+                "platform": "zwave",
+                "unique_id": "5-72057594126630913"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.homeseer_hswd100_wall_dimmer_4",
+                "name": "Family Room dimmer",
+                "platform": "zwave",
+                "unique_id": "node-6"
+            },
+            {
+                "config_entry_id": "201ce98a6bb14d9f9dc71618badf1e2e",
+                "device_id": "c740bb982e764afdb46808da48830eb2",
+                "disabled_by": null,
+                "entity_id": "light.homeseer_hswd100_wall_dimmer_level_4",
+                "name": "Family Room",
+                "platform": "zwave",
+                "unique_id": "6-72057594143408129"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

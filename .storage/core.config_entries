@@ -1,0 +1,20 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "network_key": null,
+                    "usb_path": "/zwaveusbstick"
+                },
+                "domain": "zwave",
+                "entry_id": "201ce98a6bb14d9f9dc71618badf1e2e",
+                "source": "import",
+                "title": "Z-Wave (import from configuration.yaml)",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

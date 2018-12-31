@@ -1,6 +1,5 @@
 .*.sw*
 
-.storage
 .cloud
 .google.token
 .uuid
