@@ -17,11 +17,10 @@
   hide_entity: true
 
 - id: '1544279276807'
-  alias: Return all dimmers to full brightness
+  alias: Return all dimmers to full brightness in morning
   trigger:
     platform: time
     at: 04:50:00
   condition: []
   action:
-  - alias: ''
-    service: script.set_dimmers_to_full_brightness
+  - service: script.set_dimmers_to_full_brightness_then_off
