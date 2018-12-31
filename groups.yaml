@@ -26,3 +26,5 @@ dimmers_main_floor:
   name: Dimmers on the main floor
   entities:
     - light.homeseer_hswd100_wall_dimmer_level
+    - light.homeseer_hswd100_wall_dimmer_level_1
+    - light.homeseer_hswd100_wall_dimmer_level_2
