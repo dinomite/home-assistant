@@ -1,0 +1,14 @@
+light.homeseer_hswd100_wall_dimmer_level:
+  polling_intensity: 1
+
+light.homeseer_hswd100_wall_dimmer_level_1:
+  polling_intensity: 1
+
+light.homeseer_hswd100_wall_dimmer_level_2:
+  polling_intensity: 1
+
+light.homeseer_hswd100_wall_dimmer_level_3:
+  polling_intensity: 1
+
+light.homeseer_hswd100_wall_dimmer_level_4:
+  polling_intensity: 1

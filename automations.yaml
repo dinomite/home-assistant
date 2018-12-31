@@ -6,6 +6,7 @@
   action:
   - service: zwave.test_network
   hide_entity: true
+
 - id: 383e1a78e3784aae8d7864d4de3a01c0
   alias: heal at 4:30am
   trigger:
@@ -14,6 +15,7 @@
   action:
   - service: zwave.heal_network
   hide_entity: true
+
 - id: '1544279276807'
   alias: Return all dimmers to full brightness
   trigger:

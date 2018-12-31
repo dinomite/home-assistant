@@ -28,3 +28,5 @@ dimmers_main_floor:
     - light.homeseer_hswd100_wall_dimmer_level
     - light.homeseer_hswd100_wall_dimmer_level_1
     - light.homeseer_hswd100_wall_dimmer_level_2
+    - light.homeseer_hswd100_wall_dimmer_level_3
+    - light.homeseer_hswd100_wall_dimmer_level_4
