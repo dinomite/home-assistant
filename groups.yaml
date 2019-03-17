@@ -5,7 +5,7 @@ default_view:
   entities:
     - group.dimmers_main_floor
     - group.dimmers_all
-    #- group.all_lights
+    - group.all_lights
     - group.all_scripts
     - group.all_automations
     - group.date_time
@@ -17,6 +17,26 @@ date_time:
     - sensor.time
     - sensor.time_utc
 
+study:
+  name: Study lights
+  entities:
+    - light.homeseer_hswd100_wall_dimmer_level
+
+morning_room:
+  name: Morning room lights
+  entities:
+    - light.homeseer_hswd100_wall_dimmer_level_2
+
+kitchen:
+  name: Kitchen lights
+  entities:
+    - light.homeseer_hswd100_wall_dimmer_level_3
+
+family_room:
+  name: Family room lights
+  entities:
+    - light.homeseer_hswd100_wall_dimmer_level_4
+
 dimmers_all:
   name: All dimmers
   entities:
@@ -25,8 +45,7 @@ dimmers_all:
 dimmers_main_floor:
   name: Dimmers on the main floor
   entities:
-    - light.homeseer_hswd100_wall_dimmer_level
-    - light.homeseer_hswd100_wall_dimmer_level_1
-    - light.homeseer_hswd100_wall_dimmer_level_2
-    - light.homeseer_hswd100_wall_dimmer_level_3
-    - light.homeseer_hswd100_wall_dimmer_level_4
+    - group.study_lights
+    - group.morning_room_lights
+    - group.kitchen_lights
+    - group.family_room_lights

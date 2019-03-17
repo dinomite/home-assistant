@@ -1,0 +1,8 @@
+- name: TV time
+  entities:
+    group.family_room:
+      state: true
+      brightness: 1
+    group.morning_room:
+      state: true
+      brightness: 1
