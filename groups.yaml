@@ -4,8 +4,9 @@ default_view:
   icon: mdi:home-assistant
   entities:
     - group.dimmers_main_floor
+    - group.dimmers_upper_floor
     - group.dimmers_all
-    - group.all_lights
+      #- group.all_lights
     - group.all_scripts
     - group.all_automations
     - group.date_time
@@ -37,10 +38,21 @@ family_room:
   entities:
     - light.homeseer_hswd100_wall_dimmer_level_4
 
+master_bedroom:
+  name: Master bedroom lights
+  entities:
+    - light.homeseer_hswd100_wall_dimmer_level_5
+
+master_bathroom:
+  name: Master bathroom lights
+  entities:
+    - light.homeseer_hswd100_wall_dimmer_level_6
+
 dimmers_all:
   name: All dimmers
   entities:
     - group.dimmers_main_floor
+    - group.dimmers_upper_floor
 
 dimmers_main_floor:
   name: Dimmers on the main floor
@@ -49,3 +61,9 @@ dimmers_main_floor:
     - group.morning_room
     - group.kitchen
     - group.family_room
+
+dimmers_upper_floor:
+  name: Dimmers on the upper floor
+  entities:
+    - group.master_bedroom
+    - group.master_bathroom

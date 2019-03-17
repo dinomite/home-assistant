@@ -10,3 +10,9 @@
   entities:
     group.dimmers_main_floor:
       state: off
+    group.master_bedroom:
+      state: on
+      brightness: 20
+    group.master_bathroom:
+      state: on
+      brightness: 20

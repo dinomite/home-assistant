@@ -81,6 +81,42 @@
                 "name": "Family Room",
                 "platform": "zwave",
                 "unique_id": "6-72057594143408129"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.homeseer_hswd100_wall_dimmer_5",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-9"
+            },
+            {
+                "config_entry_id": "201ce98a6bb14d9f9dc71618badf1e2e",
+                "device_id": "9fb5b7becf974ac3a3a7127475a1f1db",
+                "disabled_by": null,
+                "entity_id": "light.homeseer_hswd100_wall_dimmer_level_5",
+                "name": "Master bedroom",
+                "platform": "zwave",
+                "unique_id": "9-72057594193739777"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "zwave.homeseer_hswd100_wall_dimmer_6",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-10"
+            },
+            {
+                "config_entry_id": "201ce98a6bb14d9f9dc71618badf1e2e",
+                "device_id": "8d627fdcc07743c79c83cd64213ca486",
+                "disabled_by": null,
+                "entity_id": "light.homeseer_hswd100_wall_dimmer_level_6",
+                "name": "Master bathroom",
+                "platform": "zwave",
+                "unique_id": "10-72057594210516993"
             }
         ]
     },

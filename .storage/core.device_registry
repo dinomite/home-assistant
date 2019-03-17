@@ -72,6 +72,42 @@
                 "model": "HS-WD100+ Wall Dimmer",
                 "name": "HomeSeer HS-WD100+ Wall Dimmer",
                 "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "201ce98a6bb14d9f9dc71618badf1e2e"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "9fb5b7becf974ac3a3a7127475a1f1db",
+                "identifiers": [
+                    [
+                        "zwave",
+                        9
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WD100+ Wall Dimmer",
+                "name": "HomeSeer HS-WD100+ Wall Dimmer",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "201ce98a6bb14d9f9dc71618badf1e2e"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "8d627fdcc07743c79c83cd64213ca486",
+                "identifiers": [
+                    [
+                        "zwave",
+                        10
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WD100+ Wall Dimmer",
+                "name": "HomeSeer HS-WD100+ Wall Dimmer",
+                "sw_version": null
             }
         ]
     },
