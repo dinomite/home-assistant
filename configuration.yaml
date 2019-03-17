@@ -85,6 +85,10 @@ zwave:
 homekit:
   name: Hedgehog
   auto_start: false
+  filter:
+    exclude_domains:
+      - script
+      - automation
 
 group: !include groups.yaml
 automation: !include automations.yaml
