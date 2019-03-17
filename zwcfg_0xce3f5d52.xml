@@ -21,7 +21,7 @@
 			</CommandClass>
 			<CommandClass id="38" name="COMMAND_CLASS_SWITCH_MULTILEVEL" version="4" innif="true">
 				<Instance index="1" />
-				<Value type="byte" genre="user" instance="1" index="0" label="Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
+				<Value type="byte" genre="user" instance="1" index="0" label="Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="1" min="0" max="255" value="99" />
 				<Value type="button" genre="user" instance="1" index="1" label="Bright" units="" read_only="false" write_only="true" verify_changes="false" poll_intensity="0" min="0" max="0" />
 				<Value type="button" genre="user" instance="1" index="2" label="Dim" units="" read_only="false" write_only="true" verify_changes="false" poll_intensity="0" min="0" max="0" />
 				<Value type="bool" genre="system" instance="1" index="3" label="Ignore Start Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
@@ -62,7 +62,7 @@
 				<Value type="byte" genre="config" instance="1" index="7" label="Remote level percent" units="%" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="99" value="99">
 					<Help>Indicates how much each level dims/brightens as a portion of the whole range when set remotely.</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="8" label="Remote duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="21" size="2">
+				<Value type="list" genre="config" instance="1" index="8" label="Remote duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="1" size="2">
 					<Help>Indicates the time duration of each level when set remotely.</Help>
 					<Item label="10" value="1" />
 					<Item label="20" value="2" />
@@ -90,7 +90,7 @@
 				<Value type="byte" genre="config" instance="1" index="9" label="Local level percent" units="%" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="99" value="99">
 					<Help>Indicates how much each level dims/brightens as a portion of the whole range when set locally.</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="10" label="Local duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="21" size="2">
+				<Value type="list" genre="config" instance="1" index="10" label="Local duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="1" size="2">
 					<Help>Indicates the time duration of each level when set locally.</Help>
 					<Item label="10" value="1" />
 					<Item label="20" value="2" />
@@ -184,7 +184,7 @@
 			</CommandClass>
 			<CommandClass id="38" name="COMMAND_CLASS_SWITCH_MULTILEVEL" version="4" innif="true">
 				<Instance index="1" />
-				<Value type="byte" genre="user" instance="1" index="0" label="Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
+				<Value type="byte" genre="user" instance="1" index="0" label="Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="1" min="0" max="255" value="99" />
 				<Value type="button" genre="user" instance="1" index="1" label="Bright" units="" read_only="false" write_only="true" verify_changes="false" poll_intensity="0" min="0" max="0" />
 				<Value type="button" genre="user" instance="1" index="2" label="Dim" units="" read_only="false" write_only="true" verify_changes="false" poll_intensity="0" min="0" max="0" />
 				<Value type="bool" genre="system" instance="1" index="3" label="Ignore Start Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
@@ -225,7 +225,7 @@
 				<Value type="byte" genre="config" instance="1" index="7" label="Remote level percent" units="%" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="99" value="99">
 					<Help>Indicates how much each level dims/brightens as a portion of the whole range when set remotely.</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="8" label="Remote duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="21" size="2">
+				<Value type="list" genre="config" instance="1" index="8" label="Remote duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="1" size="2">
 					<Help>Indicates the time duration of each level when set remotely.</Help>
 					<Item label="10" value="1" />
 					<Item label="20" value="2" />
@@ -253,7 +253,7 @@
 				<Value type="byte" genre="config" instance="1" index="9" label="Local level percent" units="%" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="99" value="99">
 					<Help>Indicates how much each level dims/brightens as a portion of the whole range when set locally.</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="10" label="Local duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="21" size="2">
+				<Value type="list" genre="config" instance="1" index="10" label="Local duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="1" size="2">
 					<Help>Indicates the time duration of each level when set locally.</Help>
 					<Item label="10" value="1" />
 					<Item label="20" value="2" />
@@ -347,7 +347,7 @@
 			</CommandClass>
 			<CommandClass id="38" name="COMMAND_CLASS_SWITCH_MULTILEVEL" version="4" innif="true">
 				<Instance index="1" />
-				<Value type="byte" genre="user" instance="1" index="0" label="Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
+				<Value type="byte" genre="user" instance="1" index="0" label="Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="1" min="0" max="255" value="0" />
 				<Value type="button" genre="user" instance="1" index="1" label="Bright" units="" read_only="false" write_only="true" verify_changes="false" poll_intensity="0" min="0" max="0" />
 				<Value type="button" genre="user" instance="1" index="2" label="Dim" units="" read_only="false" write_only="true" verify_changes="false" poll_intensity="0" min="0" max="0" />
 				<Value type="bool" genre="system" instance="1" index="3" label="Ignore Start Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
@@ -388,7 +388,7 @@
 				<Value type="byte" genre="config" instance="1" index="7" label="Remote level percent" units="%" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="99" value="99">
 					<Help>Indicates how much each level dims/brightens as a portion of the whole range when set remotely.</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="8" label="Remote duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="21" size="2">
+				<Value type="list" genre="config" instance="1" index="8" label="Remote duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="1" size="2">
 					<Help>Indicates the time duration of each level when set remotely.</Help>
 					<Item label="10" value="1" />
 					<Item label="20" value="2" />
@@ -416,7 +416,7 @@
 				<Value type="byte" genre="config" instance="1" index="9" label="Local level percent" units="%" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="99" value="99">
 					<Help>Indicates how much each level dims/brightens as a portion of the whole range when set locally.</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="10" label="Local duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="21" size="2">
+				<Value type="list" genre="config" instance="1" index="10" label="Local duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="1" size="2">
 					<Help>Indicates the time duration of each level when set locally.</Help>
 					<Item label="10" value="1" />
 					<Item label="20" value="2" />
@@ -510,7 +510,7 @@
 			</CommandClass>
 			<CommandClass id="38" name="COMMAND_CLASS_SWITCH_MULTILEVEL" version="4" innif="true">
 				<Instance index="1" />
-				<Value type="byte" genre="user" instance="1" index="0" label="Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="99" />
+				<Value type="byte" genre="user" instance="1" index="0" label="Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="1" min="0" max="255" value="99" />
 				<Value type="button" genre="user" instance="1" index="1" label="Bright" units="" read_only="false" write_only="true" verify_changes="false" poll_intensity="0" min="0" max="0" />
 				<Value type="button" genre="user" instance="1" index="2" label="Dim" units="" read_only="false" write_only="true" verify_changes="false" poll_intensity="0" min="0" max="0" />
 				<Value type="bool" genre="system" instance="1" index="3" label="Ignore Start Level" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
@@ -551,7 +551,7 @@
 				<Value type="byte" genre="config" instance="1" index="7" label="Remote level percent" units="%" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="99" value="99">
 					<Help>Indicates how much each level dims/brightens as a portion of the whole range when set remotely.</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="8" label="Remote duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="21" size="2">
+				<Value type="list" genre="config" instance="1" index="8" label="Remote duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="1" size="2">
 					<Help>Indicates the time duration of each level when set remotely.</Help>
 					<Item label="10" value="1" />
 					<Item label="20" value="2" />
@@ -579,7 +579,7 @@
 				<Value type="byte" genre="config" instance="1" index="9" label="Local level percent" units="%" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="99" value="99">
 					<Help>Indicates how much each level dims/brightens as a portion of the whole range when set locally.</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="10" label="Local duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="21" size="2">
+				<Value type="list" genre="config" instance="1" index="10" label="Local duration per level" units="ms" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="22" vindex="1" size="2">
 					<Help>Indicates the time duration of each level when set locally.</Help>
 					<Item label="10" value="1" />
 					<Item label="20" value="2" />
