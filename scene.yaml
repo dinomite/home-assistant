@@ -6,3 +6,7 @@
     group.morning_room:
       state: true
       brightness: 1
+- name: Bedtime
+  entities:
+    group.dimmers_main_floor:
+      state: false
