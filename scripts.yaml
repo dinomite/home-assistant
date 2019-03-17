@@ -1,5 +1,5 @@
 set_dimmers_to_full_brightness_then_off:
-  alias: Set dimmers to full brightness, then off
+  alias: Full brightness, then off
   sequence:
   - service: light.turn_on
     data:
@@ -10,7 +10,7 @@ set_dimmers_to_full_brightness_then_off:
       entity_id: group.dimmers_all
 
 set_dimmers_to_minimum_brightness:
-  alias: Set dimmers to minimum brightness
+  alias: Minimum brightness
   sequence:
   - service: light.turn_on
     data:

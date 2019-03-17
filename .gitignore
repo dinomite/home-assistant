@@ -2,6 +2,7 @@
 
 .cloud
 .google.token
+.homekit.state
 .uuid
 
 ip_bans.yaml

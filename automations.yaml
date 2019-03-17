@@ -1,3 +1,13 @@
+- alias: 'Start HomeKit'
+  trigger:
+    - platform: event
+      event_type: zwave.network_ready
+    - platform: event
+      event_type: zwave.network_complete
+    - platform: event
+      event_type: zwave.network_complete_some_dead
+  action:
+    - service: homekit.start
 - id: 2ce80d78611c4fd6909580653114d2bc
   alias: test at 3:30am
   trigger:
