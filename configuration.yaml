@@ -85,4 +85,3 @@ zwave:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
-python_script:
