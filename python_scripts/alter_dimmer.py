@@ -8,7 +8,12 @@ entity_id  = data.get('entity_id')
 # Get current state
 states = hass.states.get(entity_id)
 state = states.state
-logger.info("Current state: " + state)
+logger.info(states)
+
+#data = { "entity_id" : entity_id, "brightness": 1 }
+data = { "entity_id" : entity_id }
+logger.info(data)
+hass.services.call('light', 'turn_off', data)
 
 # Set new brightness value
 #if action == 'dim_up' : dim = (brightness + level)
