@@ -45,7 +45,7 @@ dimmers_all:
 dimmers_main_floor:
   name: Dimmers on the main floor
   entities:
-    - group.study_lights
-    - group.morning_room_lights
-    - group.kitchen_lights
-    - group.family_room_lights
+    - group.study
+    - group.morning_room
+    - group.kitchen
+    - group.family_room

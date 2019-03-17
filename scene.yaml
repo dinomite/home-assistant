@@ -1,12 +1,12 @@
 - name: TV time
   entities:
     group.family_room:
-      state: true
+      state: on
       brightness: 1
     group.morning_room:
-      state: true
+      state: on
       brightness: 1
 - name: Bedtime
   entities:
     group.dimmers_main_floor:
-      state: false
+      state: off
