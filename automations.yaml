@@ -33,4 +33,4 @@
     at: 04:50:00
   condition: []
   action:
-  - service: script.set_dimmers_to_full_brightness_then_off
+  - service: script.set_main_floor_dimmers_to_full_brightness_then_off

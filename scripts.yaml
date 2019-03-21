@@ -1,13 +1,13 @@
-set_dimmers_to_full_brightness_then_off:
+set_main_floor_dimmers_to_full_brightness_then_off:
   alias: Full brightness, then off
   sequence:
   - service: light.turn_on
     data:
-      entity_id: group.dimmers_all
+      entity_id: group.dimmers_main_floor
       brightness: 255
   - service: light.turn_off
     data:
-      entity_id: group.dimmers_all
+      entity_id: group.dimmers_main_floor
 
 set_dimmers_to_minimum_brightness:
   alias: Minimum brightness
