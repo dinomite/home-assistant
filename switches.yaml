@@ -1,0 +1,183 @@
+- platform: mqtt
+  name: "Porch Switch"
+  state_topic: "hubitat/Porch switch/switch"
+  command_topic: "hubitat/Porch switch/switch"
+  qos: 0
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Study dimmer"
+  state_topic: "hubitat/Study dimmer/switch"
+  command_topic: "hubitat/Study dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Family Room dimmer"
+  state_topic: "hubitat/Family Room dimmer/switch"
+  command_topic: "hubitat/Family Room dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Morning Room dimmer"
+  state_topic: "hubitat/Morning Room dimmer/switch"
+  command_topic: "hubitat/Morning Room dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Kitchen dimmer"
+  state_topic: "hubitat/Kitchen dimmer/switch"
+  command_topic: "hubitat/Kitchen dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Master Bedroom dimmer"
+  state_topic: "hubitat/Master Bedroom dimmer/switch"
+  command_topic: "hubitat/Master Bedroom dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Master Bathroom dimmer"
+  state_topic: "hubitat/Master Bathroom dimmer/switch"
+  command_topic: "hubitat/Master Bathroom dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Group—main room dimmers"
+  state_topic: "hubitat/Group—main room dimmers/switch"
+  command_topic: "hubitat/Group—main room dimmers/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Group—master bedroom"
+  state_topic: "hubitat/Group—master bedroom/switch"
+  command_topic: "hubitat/Group—master bedroom/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Scene—TV Time"
+  state_topic: "hubitat/Scene—TV Time/switch"
+  command_topic: "hubitat/Scene—TV Time/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Group—main floor lights"
+  state_topic: "hubitat/Group—main floor lights/switch"
+  command_topic: "hubitat/Group—main floor lights/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Main Hall dimmer"
+  state_topic: "hubitat/Main Hall dimmer/switch"
+  command_topic: "hubitat/Main Hall dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Porch switch"
+  state_topic: "hubitat/Porch switch/switch"
+  command_topic: "hubitat/Porch switch/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Group—outside lights"
+  state_topic: "hubitat/Group—outside lights/switch"
+  command_topic: "hubitat/Group—outside lights/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Group—path lights"
+  state_topic: "hubitat/Group—path lights/switch"
+  command_topic: "hubitat/Group—path lights/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Garage switch"
+  state_topic: "hubitat/Garage switch/switch"
+  command_topic: "hubitat/Garage switch/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Back porch switch"
+  state_topic: "hubitat/Back porch switch/switch"
+  command_topic: "hubitat/Back porch switch/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Under-cabinet switch"
+  state_topic: "hubitat/Under-cabinet switch/switch"
+  command_topic: "hubitat/Under-cabinet switch/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Kitchen island dimmer"
+  state_topic: "hubitat/Kitchen island dimmer/switch"
+  command_topic: "hubitat/Kitchen island dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Up-stairs dimmer"
+  state_topic: "hubitat/Up-stairs dimmer/switch"
+  command_topic: "hubitat/Up-stairs dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Upstairs hallway dimmer"
+  state_topic: "hubitat/Upstairs hallway dimmer/switch"
+  command_topic: "hubitat/Upstairs hallway dimmer/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Scene—evening path lighting"
+  state_topic: "hubitat/Scene—evening path lighting/switch"
+  command_topic: "hubitat/Scene—evening path lighting/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Garage mandoor switch"
+  state_topic: "hubitat/Garage mandoor switch/switch"
+  command_topic: "hubitat/Garage mandoor switch/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Scene—Master bedroom night time"
+  state_topic: "hubitat/Scene—Master bedroom night time/switch"
+  command_topic: "hubitat/Scene—Master bedroom night time/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Basement door light"
+  state_topic: "hubitat/Basement door light/switch"
+  command_topic: "hubitat/Basement door light/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
+- platform: mqtt
+  name: "Group—upstairs lights"
+  state_topic: "hubitat/Group—upstairs lights/switch"
+  command_topic: "hubitat/Group—upstairs lights/switch"
+  payload_on: "on"
+  payload_off: "off"
+  optimistic: false
